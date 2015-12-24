@@ -1,0 +1,42 @@
+{
+  "name": "weichat",
+  "version": "1.0.0",
+  "description": "web chat in weixin browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "keywords": [
+    "weixin",
+    "chat"
+  ],
+  "author": "Oliver",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "css-loader": "^0.23.1",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mini-css": "0.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-webpack": "^1.5.0",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
